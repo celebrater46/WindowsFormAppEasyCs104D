@@ -33,7 +33,7 @@ namespace WindowsFormsAppEasyCs104D
             treeroot.Text = xmlroot.Name; // Assign Root Node as Tree's Root
             tv.Nodes.Add(treeroot);
 
-            walk(xmlroot, treeroot); // Children 
+            walk(xmlroot, treeroot); // Children
             tv.Parent = this;
         }
 
